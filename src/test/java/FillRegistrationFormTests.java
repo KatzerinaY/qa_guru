@@ -9,7 +9,7 @@ import java.util.Locale;
 
 import static com.codeborne.selenide.Selenide.sleep;
 
-public class TextBoxTests extends TestBase{
+public class FillRegistrationFormTests extends TestBase{
 
   RegistrationPage regPage = new RegistrationPage();
   ModalRegistrationForm regModForm = new ModalRegistrationForm();

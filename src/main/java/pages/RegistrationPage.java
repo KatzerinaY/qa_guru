@@ -16,7 +16,7 @@ public class RegistrationPage {
   }
 
   public void fillFirstName(String firstName) {
-      $("#firstName").setValue(firstName);
+    $("#firstName").setValue(firstName);
   }
 
   public void fillLastName(String lastName) {
@@ -53,8 +53,8 @@ public class RegistrationPage {
     $("#uploadPicture").uploadFromClasspath(uploadPicture);
   }
 
-  public void fillBirthday(String dateDay,String dateMonth,String dateYear) {
-    calendar.DateChange(dateDay,dateMonth,dateYear, "#dateOfBirthInput");
+  public void fillBirthday(String dateDay, String dateMonth, String dateYear) {
+    calendar.DateChange(dateDay, dateMonth, dateYear, "#dateOfBirthInput");
   }
 
   public void fillStateAndCity(String state, String city) {

@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
+
 public class ModalRegistrationForm {
 
   public void checkResults(String firstName, String lastName, 
@@ -27,4 +28,5 @@ public class ModalRegistrationForm {
     table.$(byText("Address")).sibling(0).shouldHave(text(currentAddress));
     table.$(byText("State and City")).sibling(0).shouldHave(text(state+" "+city));
   }
+
 }
